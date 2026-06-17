@@ -34,7 +34,7 @@ Aplikasi telah dikompilasi ke level *Production-Ready Build* dan berjalan live d
 | **Apoteker** | `apoteker1` | `Curzy7Day#` | Stok kritis, katalog, barang keluar, kalkulator |
 | **Gudang** | `gudang1` | `Curzy7Day#` | Stok kritis, lihat katalog, barang masuk, kalkulator |
 
-> ⚠️ *Akun staff di atas **hanya untuk simulasi**. Data dapat di-reset sewaktu-waktu oleh admin. **Segera ganti password setelah login pertama kali** untuk menjaga keamanan.*
+> ⚠️ *Akun staff di atas **hanya untuk simulasi**. Data dapat di-reset sewaktu-waktu oleh admin.*
 
 ---
 
@@ -174,7 +174,7 @@ Seluruh ketentuan lengkap tersedia di berkas [`LICENSE`](./LICENSE) pada reposit
 Dikembangkan, dimiliki, dan dilindungi hak cipta oleh:
 
 **@Curzyori (Yuken Velino)**
-*Founder & Lead Engineer — Curzy Ventures*
+*Founder & Lead Engineer — Curzy*
 *Indonesia, 2026*
 
 > Segala bentuk pelanggaran terhadap lisensi ini akan ditindaklanjuti sesuai hukum yang berlaku di Republik Indonesia, termasuk namun tidak terbatas pada **UU Hak Cipta No. 28 Tahun 2014** dan **UU ITE No. 19 Tahun 2016**.
