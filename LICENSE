@@ -1,247 +1,39 @@
-LISENSI KOMERSIAL TERBATAS (PROPRIETARY LIMITED COMMERCIAL LICENSE)
+PROPRIETARY LIMITED COMMERCIAL LICENSE
 ========================================================================
+Product   : PharmaStock (V1.0.0) — Pharmacy Inventory & Financial Management System
+Project   : Challenge 14 / 50 (50-Projects-Challenges)
+Owner     : @Curzyori (Yuken Velino)
+Year      : 2026
+Territory : Republic of Indonesia
 
-Produk   : PharmaStock (V1.0.0) — Sistem Manajemen Inventaris & Keuangan Apotek
-Proyek   : Challenge 14 / 50 (50-Projects-Challenges)
-Pemilik  : @Curzyori (Yuken Velino)
-Tahun    : 2026
-Wilayah  : Republik Indonesia
+By purchasing, accessing, or using this Product, you agree to be bound by the terms of this license.
 
+1. LICENSE GRANT
+Subject to full payment, the Copyright Owner grants the Buyer a limited, non-exclusive, non-transferable, and revocable license to:
+- Use the Product for internal business operations.
+- Modify the source code solely for internal customization needs.
+- Authorize internal staff (End Users) to access and use the Product.
 
-------------------------------------------------------------------------
-PEMBUKAAN
-------------------------------------------------------------------------
+2. RESTRICTIONS
+The Buyer is strictly prohibited from:
+- Reselling, renting, leasing, sublicensing, or transferring the Product (or its modifications) to any third party.
+- Redistributing, publishing, or uploading the source code, database, or documentation to any public repository, forum, or distribution channel.
+- Sharing access credentials, API keys, or login details with unauthorized individuals.
+- Removing, altering, or hiding any copyright notices, logos, or attribution of the Copyright Owner.
+- Reverse engineering or decompiling the Product except as explicitly permitted by applicable law.
 
-PharmaStock (selanjutnya disebut "Produk") adalah perangkat lunak komputer
-berbasis web yang dikembangkan oleh @Curzyori (Yuken Velino) (selanjutnya
-disebut "Pemilik Hak Cipta") dan dilindungi oleh hukum Republik Indonesia,
-termasuk namun tidak terbatas pada:
+3. LIMITATION OF LIABILITY
+The Product is provided "AS IS" without warranties of any kind, express or implied. The Copyright Owner shall not be liable for any direct, indirect, incidental, or consequential damages (including loss of data, financial loss, or business interruption) arising from the use or inability to use the Product. In any event, the Owner's total liability shall not exceed the amount paid for the Product.
 
-  1. Undang-Undang Nomor 28 Tahun 2014 tentang Hak Cipta.
-  2. Undang-Undang Nomor 19 Tahun 2016 tentang Informasi dan Transaksi
-     Elektronik (UU ITE).
-  3. Kitab Undang-Undang Hukum Perdata (KUHPerdata) terkait perjanjian
-     dan perbuatan melawan hukum.
+4. TERMINATION
+This license terminates automatically without prior notice if the Buyer violates any terms. Upon termination, the Buyer must immediately cease all use of the Product and destroy all copies of the software and its modifications.
 
-Dengan membeli, mengakses, atau menggunakan Produk ini, Pembeli dianggap
-telah membaca, memahami, dan menyetujui seluruh klausul lisensi berikut
-tanpa pengecualian.
-
-
-------------------------------------------------------------------------
-PASAL 1 — DEFINISI
-------------------------------------------------------------------------
-
-  1.1  "Produk" berarti seluruh perangkat lunak, kode sumber, basis data,
-       dokumentasi, desain antarmuka, logika bisnis, dan material terkait
-       yang membentuk sistem PharmaStock.
-
-  1.2  "Pemilik Hak Cipta" berarti @Curzyori (Yuken Velino), individu
-       yang memiliki, mengembangkan, dan/atau mendistribusikan Produk.
-
-  1.3  "Pembeli" berarti pihak perseorangan atau badan usaha yang telah
-       melakukan pembayaran penuh atas Produk dan menerima hak penggunaan
-       terbatas sesuai klausul lisensi ini.
-
-  1.4  "Pengguna Akhir" berarti karyawan, staf, atau pihak yang diberi
-       wewenang oleh Pembeli untuk menggunakan Produk dalam lingkup
-       operasional internal Pembeli.
-
-  1.5  "Modifikasi" berarti setiap perubahan, penambahan, penyesuaian,
-       atau derivasi kode sumber yang dilakukan terhadap Produk.
-
-  1.6  "Distribusi Ulang" berarti tindakan membagikan, mempublikasikan,
-       mengunggah, menjual kembali, atau menyediakan Produk (atau bagian
-       darinya) kepada pihak ketiga mana pun, dengan cara apa pun.
-
+5. GOVERNING LAW & DISPUTES
+This license is governed by the laws of the Republic of Indonesia. Any disputes arising from this license shall be resolved through amicable discussion. If no agreement is reached, disputes shall be settled in the competent District Court within the Republic of Indonesia.
 
 ------------------------------------------------------------------------
-PASAL 2 — HAK YANG DIBERIKAN (GRANT OF RIGHTS)
-------------------------------------------------------------------------
-
-Pemilik Hak Cipta memberikan kepada Pembeli **hak terbatas, non-eksklusif,
-tidak dapat dialihkan, dan dapat dibatalkan** untuk:
-
-  2.1  Menggunakan Produk untuk keperluan operasional internal Pembeli
-       (misalnya: operasional apotek, gudang farmasi, klinik, atau
-       fasilitas kesehatan milik Pembeli).
-
-  2.2  Melakukan Modifikasi terhadap Produk untuk menyesuaikan
-       fungsionalitas dengan kebutuhan internal Pembeli.
-
-  2.3  Mengizinkan Pengguna Akhir yang berada di bawah otoritas Pembeli
-       untuk mengakses dan menggunakan Produk sesuai hak akses yang
-       ditetapkan oleh Pembeli.
-
-
-------------------------------------------------------------------------
-PASAL 3 — LARANGAN KERAS (STRICT PROHIBITIONS)
-------------------------------------------------------------------------
-
-Pembeli **DILARANG KERAS** untuk:
-
-  3.1  Menjual kembali, menyewakan, menyewakan ulang, melisensikan
-       ulang, atau memindahtangankan Produk (atau versi Modifikasi-nya)
-       kepada pihak ketiga mana pun, baik dengan imbalan finansial
-       maupun secara gratis.
-
-  3.2  Mendistribusikan ulang, membagikan, mempublikasikan, mengunggah,
-       atau menyediakan Produk (termasuk kode sumber, basis data,
-       dokumentasi, atau bagian darinya) di repositori publik, forum,
-       media sosial, marketplace, atau媒介 kanal distribusi mana pun.
-
-  3.3  Membagikan kredensial akses, token API, atau informasi login
-       kepada pihak yang tidak berwenang.
-
-  3.4  Menghapus, mengubah, atau menyembunyikan informasi kepemilikan,
-       hak cipta, watermark, logo, atau atribusi Pemilik Hak Cipta yang
-       terdapat di dalam Produk.
-
-  3.5  Menggunakan Produk untuk tujuan yang melanggar hukum, merugikan
-       pihak lain, atau bertentangan dengan peraturan perundang-undangan
-       yang berlaku di Republik Indonesia.
-
-  3.6  Melakukan reverse engineering, dekompilasi, atau disassembly
-       terhadap Produk untuk tujuan membangun produk pesaing, kecuali
-       sejauh secara tegas diizinkan oleh Pasal 26 UU Hak Cipta No. 28
-       Tahun 2014 untuk tujuan interoperabilitas yang sah.
-
-
-------------------------------------------------------------------------
-PASAL 4 — PEMBATASAN TANGGUNG JAWAB
-------------------------------------------------------------------------
-
-  4.1  Produk disediakan secara "SEBAGAIMANA ADANYA" (AS IS) tanpa
-       jaminan apa pun, baik tersurat maupun tersirat, termasuk namun
-       tidak terbatas pada jaminan kelayakan untuk tujuan tertentu
-       (merchantability) dan tidak adanya pelanggaran (non-infringement).
-
-  4.2  Pemilik Hak Cipta **TIDAK BERTANGGUNG JAWAB** atas kerugian
-       langsung, tidak langsung, insidental, khusus, konsekuensial, atau
-       kerugian dalam bentuk apa pun yang timbul dari penggunaan atau
-       ketidakmampuan menggunakan Produk, termasuk namun tidak terbatas
-       pada kehilangan data, kerugian finansial, atau gangguan operasional.
-
-  4.3  Tanggung jawab total Pemilik Hak Cipta atas Produk, jika ada,
-       tidak akan melebihi jumlah yang telah dibayarkan oleh Pembeli
-       untuk Produk tersebut.
-
-
-------------------------------------------------------------------------
-PASAL 5 — PELANGGARAN DAN SANKSI
-------------------------------------------------------------------------
-
-  5.1  Setiap pelanggaran terhadap klausul lisensi ini merupakan
-       **perbuatan melawan hukum** menurut hukum Republik Indonesia dan
-       akan ditindaklanjuti secara hukum, termasuk namun tidak terbatas
-       pada:
-
-       a.  Gugatan perdata atas dasar pelanggaran hak cipta dan
-           perbuatan melawan hukum (Pasal 1365 KUHPerdata), dengan
-           tuntutan ganti rugi materiel dan immateriel.
-
-       b.  Laporan pidana berdasarkan UU Hak Cipta No. 28 Tahun 2014
-           (Pasal 112 dan seterusnya), dengan ancaman pidana penjara
-           paling lama 10 (sepuluh) tahun dan/atau denda paling banyak
-           Rp 4.000.000.000,- (empat miliar rupiah).
-
-       c.  Laporan pidana berdasarkan UU ITE No. 19 Tahun 2016 (Pasal 32
-           dan seterusnya) untuk distribusi ilegal melalui media
-           elektronik.
-
-  5.2  Pelanggaran terhadap Pasal 3.1, 3.2, atau 3.4 akan dianggap
-       sebagai pelanggaran serius yang secara otomatis membatalkan
-       seluruh lisensi yang telah diberikan tanpa pemberitahuan terlebih
-       dahulu, dan Pembeli wajib menghentikan penggunaan Produk segera
-       setelah menerima pemberitahuan pelanggaran.
-
-  5.3  Pemilik Hak Cipta berhak untuk melakukan investigasi independen
-       atas dugaan pelanggaran dan mengambil tindakan hukum yang dianggap
-       perlu tanpa memerlukan persetujuan sebelumnya dari Pembeli.
-
-
-------------------------------------------------------------------------
-PASAL 6 — PEMBATALAN LISENSI
-------------------------------------------------------------------------
-
-  6.1  Lisensi ini akan **otomatis batal** (void) tanpa perlu putusan
-       pengadilan apabila:
-
-       a.  Pembeli terbukti melanggar salah satu klausul dalam
-           Lisensi ini.
-       b.  Pembeli terbukti melakukan distribusi ulang atas Produk
-           kepada pihak ketiga.
-       c.  Pembeli menyalahgunakan Produk untuk aktivitas kriminal.
-
-  6.2  Setelah pembatalan, Pembeli **wajib**:
-
-       a.  Menghentikan seluruh penggunaan Produk dalam waktu paling
-           lambat 7 (tujuh) hari kalender.
-       b.  Memusnahkan seluruh salinan Produk (termasuk Modifikasi)
-           yang berada di bawah kendalinya.
-       c.  Menyerahkan bukti pemusnahan kepada Pemilik Hak Cipta dalam
-           waktu 14 (empat belas) hari kalender.
-
-
-------------------------------------------------------------------------
-PASAL 7 — KETENTUAN UMUM
-------------------------------------------------------------------------
-
-  7.1  Lisensi ini diatur dan ditafsirkan berdasarkan hukum Republik
-       Indonesia.
-
-  7.2  Setiap sengketa yang timbul dari atau terkait dengan Lisensi ini
-       akan diselesaikan terlebih dahulu melalui musyawarah untuk
-       mufakat. Apabila musyawarah tidak mencapai kesepakatan dalam
-       waktu 30 (tiga puluh) hari, maka kedua belah pihak sepakat untuk
-       menyelesaikannya di Pengadilan Negeri yang berwenang di wilayah
-       hukum Republik Indonesia.
-
-  7.3  Apabila salah satu klausul dalam Lisensi ini dinyatakan tidak
-       sah atau tidak dapat diberlakukan oleh pengadilan, maka klausul
-       lainnya tetap berlaku penuh.
-
-  7.4  Lisensi ini merupakan perjanjian lengkap antara Pemilik Hak Cipta
-       dan Pembeli, dan menggantikan seluruh perjanjian, komunikasi,
-       atau pernyataan sebelumnya terkait Produk.
-
-
-------------------------------------------------------------------------
-PASAL 8 — PENANDATANGANAN RESMI
-------------------------------------------------------------------------
-
-Lisensi ini ditandatangani secara digital dan sah oleh Pemilik Hak Cipta
-sebagai bukti komitmen hukum atas Produk PharmaStock.
-
-
-Ditandatangani di     : Indonesia
-Pada tanggal          : 17 Juni 2026
-Versi Lisensi         : 1.0.0 (Komersial)
-
-
-────────────────  ═══════════════════════════  ────────────────
-                     Tanda Tangan Digital
-────────────────  ═══════════════════════════  ────────────────
-
-                    @Curzyori (Yuken Velino)
-                    Founder & Lead Engineer
-                    Curzy
-
-                    "Hasil Adalah Segalanya."
-
-                    --------------------------------
-                    Hak Cipta Dilindungi Undang-Undang.
-                    --------------------------------
-
-
-------------------------------------------------------------------------
-HUBUNGI PEMILIK HAK CIPTA
-------------------------------------------------------------------------
-
-Apabila Anda menemukan pelanggaran terhadap Lisensi ini, atau memiliki
-pertanyaan terkait hak penggunaan Produk, harap segera hubungi Pemilik
-Hak Cipta melalui kanal resmi Curzy.
-
-Dokumen ini merupakan bagian tidak terpisahkan dari berkas README dan
-seluruh artefak yang menyertainya dalam repositori
-Pharma-Stock-14 (Mirror / Shadow Repository).
+Signed digitally by:
+@Curzyori (Yuken Velino)
+Founder & Lead Engineer, Curzy
+Date: June 17, 2026
+License Version: 1.0.0 (Commercial)
