@@ -1,8 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <!-- Rounded square container with accent color -->
-  <rect x="0" y="0" width="32" height="32" rx="6" fill="#10b981"/>
-  <!-- Outer diamond -->
-  <polygon points="16,4 28,10 28,22 16,28 4,22 4,10" fill="#09090b"/>
-  <!-- Inner diamond with accent -->
-  <polygon points="16,10 22,14 22,18 16,22 10,18 10,14" fill="#10b981"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Rounded square background - bright teal -->
+  <rect x="0" y="0" width="128" height="128" rx="28" fill="#2dd4bf"/>
+  <!-- Diamond - black -->
+  <polygon points="64,18 110,64 64,110 18,64" fill="#09090b"/>
 </svg>
