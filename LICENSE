@@ -1,39 +1,49 @@
-PROPRIETARY LIMITED COMMERCIAL LICENSE
-========================================================================
-Product   : PharmaStock (V1.0.0) — Pharmacy Inventory & Financial Management System
-Project   : Challenge 14 / 50 (50-Projects-Challenges)
-Owner     : @Curzyori (Yuken Velino)
-Year      : 2026
-Territory : Republic of Indonesia
+# PROPRIETARY LIMITED COMMERCIAL LICENSE
 
-By purchasing, accessing, or using this Product, you agree to be bound by the terms of this license.
+**PharmaStock (V1.0.0)** — Pharmacy Inventory & Financial Management System
 
-1. LICENSE GRANT
-Subject to full payment, the Copyright Owner grants the Buyer a limited, non-exclusive, non-transferable, and revocable license to:
-- Use the Product for internal business operations.
-- Modify the source code solely for internal customization needs.
-- Authorize internal staff (End Users) to access and use the Product.
+**Owner:** @Curzyori (Yuken Velino)
+**Year:** 2026
+**License Version:** 1.0.0 (Commercial)
 
-2. RESTRICTIONS
-The Buyer is strictly prohibited from:
-- Reselling, renting, leasing, sublicensing, or transferring the Product (or its modifications) to any third party.
-- Redistributing, publishing, or uploading the source code, database, or documentation to any public repository, forum, or distribution channel.
-- Sharing access credentials, API keys, or login details with unauthorized individuals.
-- Removing, altering, or hiding any copyright notices, logos, or attribution of the Copyright Owner.
-- Reverse engineering or decompiling the Product except as explicitly permitted by applicable law.
+---
 
-3. LIMITATION OF LIABILITY
-The Product is provided "AS IS" without warranties of any kind, express or implied. The Copyright Owner shall not be liable for any direct, indirect, incidental, or consequential damages (including loss of data, financial loss, or business interruption) arising from the use or inability to use the Product. In any event, the Owner's total liability shall not exceed the amount paid for the Product.
+## 1. License Grant
 
-4. TERMINATION
-This license terminates automatically without prior notice if the Buyer violates any terms. Upon termination, the Buyer must immediately cease all use of the Product and destroy all copies of the software and its modifications.
+Subject to full payment, the Copyright Owner grants the Buyer a limited, non-exclusive, non-transferable license to:
 
-5. GOVERNING LAW & DISPUTES
-This license is governed by the laws of the Republic of Indonesia. Any disputes arising from this license shall be resolved through amicable discussion. If no agreement is reached, disputes shall be settled in the competent District Court within the Republic of Indonesia.
+- Use the Product for internal business operations
+- Modify the source code solely for internal customization needs
+- Authorize internal staff (End Users) to access and use the Product
 
-------------------------------------------------------------------------
-Signed digitally by:
-@Curzyori (Yuken Velino)
-Founder & Lead Engineer, Curzy
-Date: June 17, 2026
-License Version: 1.0.0 (Commercial)
+## 2. Restrictions
+
+The Buyer is **strictly prohibited** from:
+
+- Reselling, renting, leasing, sublicensing, or transferring the Product
+- Redistributing, publishing, or uploading the source code to any public repository
+- Sharing access credentials or API keys with unauthorized individuals
+- **Removing, altering, or hiding the PharmaStock logo or product name**
+- Reverse engineering or decompiling the Product
+
+## 3. Logo & Branding
+
+- The **PharmaStock name and logo** are trademarks of @Curzyori
+- Buyer **MUST NOT** modify, replace, or remove the PharmaStock logo or product name
+- Attribution and copyright notices must be preserved at all times
+
+## 4. Limitation of Liability
+
+The Product is provided **"AS IS"** without warranties. The Copyright Owner is not liable for any damages arising from use of the Product.
+
+## 5. Termination
+
+This license terminates automatically if the Buyer violates any terms. Upon termination, the Buyer must cease all use and destroy all copies.
+
+## 6. Governing Law
+
+This license is governed by the laws of the Republic of Indonesia.
+
+---
+
+**© 2026 @Curzyori (Yuken Velino). All Rights Reserved.**

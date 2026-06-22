@@ -1,180 +1,160 @@
 # 💊 PharmaStock (V1.0.0) — Sistem Manajemen Inventaris & Keuangan Apotek
 
+<p align="center">
+  <img src="images/logo.svg" alt="PharmaStock Logo" width="120"/>
+</p>
+
+<h1 align="center">PharmaStock</h1>
+<p align="center">
+  <strong>Sistem Manajemen Inventaris & Keuangan Apotek</strong>
+</p>
+
+<p align="center">
+  <a href="https://pharma-stock.curzy.dev/"><strong>🌐 Live Demo</strong></a>
+</p>
+
 <div align="center">
 
-<img src="https://img.shields.io/badge/Challenge%20Project-14%20%2F%2050-58A6FF?style=for-the-badge&logo=github&logoColor=white" />
-<img src="https://img.shields.io/badge/Next.js%2016-000000?style=for-the-badge&logo=next.js&logoColor=white" />
-<img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-<img src="https://img.shields.io/badge/Status-Commercial%20Product-10b981?style=for-the-badge&logo=shopify&logoColor=white" />
+[![Stars](https://img.shields.io/github/stars/Curzyori/pharma-stock?style=for-the-badge&color=emerald)](https://github.com/Curzyori/pharma-stock/stargazers)
+[![Forks](https://img.shields.io/github/forks/Curzyori/pharma-stock?style=for-the-badge&color=emerald)](https://github.com/Curzyori/pharma-stock/network/members)
+[![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)](#license)
+[![Platform](https://img.shields.io/badge/Platform-Web%20%7C%20Commercial-black?style=for-the-badge)](#)
 
 </div>
 
+<p align="center">
+  <a href="#-masalah">Masalah</a> ·
+  <a href="#-fitur-unggulan">Fitur</a> ·
+  <a href="#-tech-stack">Tech Stack</a> ·
+  <a href="#-struktur">Struktur</a> ·
+  <a href="#-demo">Demo</a>
+</p>
+
 ---
 
-### 📋 Mini Formula Project
-**PharmaStock** adalah **Sistem Manajemen Inventaris & Keuangan Farmasi** berbasis web yang dirancang khusus untuk **pemilik apotek, kepala gudang, dan apoteker** guna **mengatasi permasalahan pencatatan stok manual, kebocoran data omset, dan keterlambatan deteksi obat kedaluwarsa** lewat fitur **Dashboard Finansial Otomatis, Notifikasi Stok Kritis, Pelacakan No. Batch & Expired, serta Isolasi Data Multi-Role (RBAC + RLS)**. Dibangun menggunakan **Next.js 16, TypeScript, dan Supabase (PostgreSQL 17)** karena **kebutuhan akan Single Enterprise Architecture yang ringan, responsif di mobile, dan memiliki Row Level Security 100% untuk memisahkan data Owner, Apoteker, dan Staff Gudang**.
+## 🕒 Apa Itu PharmaStock?
 
-> **🏷️ Catatan Penting — Mirror / Shadow Repository**
->
-> *Berkas ini merupakan **Mirror / Shadow Repository** dari **PharmaStock (Project Challenge 14/50)** yang sengaja disediakan secara publik untuk menampilkan dokumentasi arsitektur, bagan alur kerja, cetak biru struktur folder, dan Ketentuan Lisensi Komersial secara transparan. **Kode sumber inti (Core Engine) tidak disertakan** dalam repositori ini dan disimpan aman di repositori privat demi melindungi hak cipta kekayaan intelektual, kredensial API, dan skema basis data produksi.*
+PharmaStock adalah sistem manajemen inventaris dan keuangan farmasi berbasis web yang dirancang khusus untuk pemilik apotek, kepala gudang, dan apoteker.
+
+### Masalah yang Diselesaikan
+
+| Masalah | Dampak |
+|--------|--------|
+| Pencatatan stok manual (buku/Excel) | Selisih stok fisik yang sulit dilacak |
+| Tidak ada deteksi dini expired | Obat kedaluwarsa tidak terdeteksi |
+| Owner tidak punya visibility omset real-time | Kebocoran data finansial |
+| Staff bisa lihat data sensitif | Margin keuntungan terbuka |
+
+### Solusi
+
+PharmaStock menyediakan **Dashboard Finansial Otomatis**, **Deteksi Stok Kritis & Near-Expiry**, **Pelacakan No. Batch**, **Kalkulasi PPN/PPh Otomatis**, dan **Isolasi Data Multi-Role (RBAC + RLS)**.
 
 ---
 
-## 🌐 Live Production Demo
-Aplikasi telah dikompilasi ke level *Production-Ready Build* dan berjalan live di server pribadi Curzy:
+## 🎯 Fitur Unggulan
 
-* **🔗 URL Aplikasi Live:** [https://pharma-stock.curzy.dev/](https://pharma-stock.curzy.dev/)
+| Fitur | Status | Deskripsi |
+| :--- | :---: | :--- |
+| **Dashboard Finansial** | ✅ | Total omset, margin, grafik real-time untuk Owner |
+| **Deteksi Stok Kritis** | ✅ | Otomatis tandai produk di bawah ambang batas |
+| **Deteksi Near-Expiry** | ✅ | Obat kedaluwarsa dalam 90 hari ditandai |
+| **Pelacakan Batch & Expired** | ✅ | No. Bets + Expiry Date sesuai standar farmasi |
+| **Kalkulator PPN & PPh** | ✅ | PPN 11% & PPh 22 otomatis saat input transaksi |
+| **Isolasi Multi-Role (RBAC + RLS)** | ✅ | Owner, Apoteker, Gudang dengan akses terpisah |
+| **Activity Log** | ✅ | Setiap transaksi tercatat dengan timestamp & user |
+| **Responsif Mobile & Desktop** | ✅ | Optimasi untuk staff lapangan & kasir |
 
-### 🔑 Akun Tes (Sandbox Demo)
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Teknologi | Alasan |
+| :---- | :-------- | :------ |
+| **Frontend** | Next.js 16, TypeScript, Tailwind CSS | SSR, type-safety, optimasi bundle |
+| **Backend** | Next.js Server Actions & Route Handlers | Satu wadah dengan frontend |
+| **Database** | Supabase (PostgreSQL 17) | Row Level Security 100% |
+| **State** | SWR | Fetching real-time hemat bandwidth |
+| **Export** | jsPDF + jspdf-autotable | Export PDF laporan langsung dari dashboard |
+
+---
+
+## 🏗️ Struktur Proyek
+
+```
+PharmaStock/
+├── public/                  # Aset statis logo & ikon
+├── src/
+│   ├── app/               # Next.js App Router
+│   │   ├── api/           # Route Handlers (REST API)
+│   │   ├── karyawan/      # Manajemen karyawan (Admin)
+│   │   ├── kategori/     # Kelola kategori produk
+│   │   ├── keluar/       # Transaksi barang keluar
+│   │   ├── masuk/         # Transaksi barang masuk
+│   │   ├── produk/        # Katalog produk
+│   │   ├── laporan/       # Dashboard finansial + logs
+│   │   └── login/         # Autentikasi multi-role
+│   ├── components/         # Komponen UI reusable
+│   ├── lib/               # Helper, util, Supabase client
+│   └── types/             # TypeScript definitions
+├── supabase/migrations/   # Skrip migrasi SQL
+└── package.json
+```
+
+---
+
+## 🔑 Akun Demo (Sandbox)
 
 | Peran | Username | Password | Hak Akses |
 |-------|----------|----------|-----------|
-| **Admin (Owner)** | `admin` | `Curzy7Day#` | Akses penuh: dashboard finansial, karyawan, semua laporan |
+| **Admin (Owner)** | `admin` | `Curzy7Day#` | Dashboard finansial, karyawan, semua laporan |
 | **Apoteker** | `apoteker1` | `Curzy7Day#` | Stok kritis, katalog, barang keluar, kalkulator |
-| **Gudang** | `gudang1` | `Curzy7Day#` | Stok kritis, lihat katalog, barang masuk, kalkulator |
+| **Gudang** | `gudang1` | `Curzy7Day#` | Stok kritis, katalog, barang masuk, kalkulator |
 
-> ⚠️ *Akun staff di atas **hanya untuk simulasi**. Data dapat di-reset sewaktu-waktu oleh admin.*
-
----
-
-## 📝 Deskripsi Singkat & Solusi Masalah
-Banyak apotek kecil hingga menengah masih mengandalkan pencatatan stok di buku tulis atau spreadsheet terpisah yang sering kali tidak sinkron. Kondisi ini memicu kerugian akibat selisih stok, obat kedaluwarsa yang tidak terdeteksi, serta kebocoran omset karena tidak ada isolasi data antara owner dan staff.
-
-### 🧠 Masalah yang Diselesaikan:
-1. **Pencatatan Manual yang Rawan Error:** Buku tulis atau Excel terpisah menyebabkan selisih stok fisik dan catatan yang sulit dilacak ulang.
-2. **Tidak Ada Deteksi Dini Stok Kritis & Expired:** Obat yang akan kedaluwarsa atau stok di bawah ambang batas sering tidak terdeteksi sampai pelanggan kecewa.
-3. **Kebocoran Data Finansial:** Owner tidak punya visibility omset real-time, sementara staff lapangan tidak boleh melihat margin keuntungan dan laporan sensitif.
-4. **Kalkulasi Pajak yang Memakan Waktu:** Perhitungan PPN 11% & PPh Pasal 22 untuk obat tertentu sering keliru hitung saat input transaksi.
-
-### ✨ Solusi & Fitur Unggulan PharmaStock:
-* **Dashboard Finansial Otomatis:** Owner dapat melihat total omset, margin, dan grafik pergerakan barang masuk-keluar secara real-time.
-* **Deteksi Stok Kritis & Near-Expiry:** Sistem otomatis menandai produk dengan stok di bawah ambang batas dan obat yang akan kedaluwarsa dalam 90 hari ke depan.
-* **Pelacakan Nomor Batch & Tanggal Kedaluwarsa:** Setiap obat wajib menyertakan **No. Bets** dan **Expiry Date** sesuai standar regulasi farmasi.
-* **Kalkulator PPN & PPh Otomatis:** Perhitungan PPN 11% dan PPh Pasal 22 langsung muncul saat input transaksi, tanpa kalkulator manual.
-* **Isolasi Data Multi-Role (RBAC + RLS):** Tiga peran (Owner, Apoteker, Gudang) dengan akses yang dipisah ketat lewat Supabase Row Level Security 100%.
-* **Activity Log Transparan:** Setiap transaksi tercatat dengan timestamp, user, dan detail perubahan untuk audit internal.
-* **Responsif Mobile & Desktop:** Tampilan optimal di smartphone untuk staff lapangan dan di desktop untuk owner di kasir/admin.
+> ⚠️ *Akun demo hanya untuk simulasi. Data dapat di-reset sewaktu-waktu.*
 
 ---
 
-## 🛠️ Tech Stack & Alasan Pemilihan
-* **Frontend:** **Next.js 16 (App Router)** + **TypeScript** + **Tailwind CSS**. Dipilih untuk performa server-side rendering, optimasi bundle, dan type-safety penuh agar minim bug di produksi.
-* **Backend:** **Next.js Server Actions & Route Handlers (REST API)** yang berjalan satu wadah dengan frontend. Menghemat infrastruktur dan mempercepat waktu respon.
-* **Database & Security:** **Supabase (PostgreSQL 17)** dengan **Row Level Security (RLS 100%)** berbasis `(select auth.uid())` untuk mencegah kebocoran data antar-role.
-* **State Management:** **SWR** untuk fetching data real-time yang hemat bandwidth dan otomatis revalidate.
-* **Export Laporan:** **jsPDF** + **jspdf-autotable** untuk export PDF laporan finansial dan stok langsung dari dashboard.
-* **Desain:** Tema dark mode presisi (Zinc-950 canvas, Zinc-900 panel) dengan aksen Emerald/Amber/Rose untuk status — lihat `DESIGN.md` untuk detail sistem desain.
+## 🖼️ Preview
+
+<!-- Tambah preview dengan screenshot/gif aplikasi -->
 
 ---
 
-## 🏗️ Struktur Folder Proyek (Architecture Blueprints)
-Berikut adalah pohon direktori dari basis kode **PharmaStock (Challenge 14/50)** yang merepresentasikan seluruh modul, API route, middleware keamanan, hingga konfigurasi skema database:
+## 📦 Lisensi
 
-```text
-PharmaStock/
-├── public/                        # Aset statis logo & ikon aplikasi
-├── src/
-│   ├── app/                       # Next.js App Router (server-first)
-│   │   ├── api/                   # Route Handlers (REST API endpoints)
-│   │   │   ├── auth/
-│   │   │   │   ├── login/route.ts
-│   │   │   │   └── logout/route.ts
-│   │   │   ├── inventory/
-│   │   │   │   └── low-stock/route.ts
-│   │   │   ├── karyawan/
-│   │   │   │   └── create/route.ts   # Admin-only: daftarkan karyawan baru
-│   │   │   └── produk/
-│   │   │       └── create/route.ts   # Tambah produk baru
-│   │   ├── karyawan/              # Halaman & form manajemen karyawan (Admin)
-│   │   ├── kategori/              # Halaman kelola kategori produk
-│   │   ├── keluar/                # Halaman transaksi barang keluar
-│   │   │   └── tambah/            # Form input penjualan
-│   │   ├── laporan/               # Dashboard finansial (Admin only)
-│   │   │   ├── analytics/
-│   │   │   └── logs/              # Activity log semua transaksi
-│   │   ├── login/                 # Halaman autentikasi multi-role
-│   │   ├── masuk/                 # Halaman transaksi barang masuk
-│   │   ├── produk/                # Katalog produk + form tambah
-│   │   ├── setting/               # Pengaturan profil & preferensi
-│   │   ├── error.tsx
-│   │   ├── globals.css            # Tailwind core + tema Zinc-950
-│   │   ├── layout.tsx             # Root layout + Auth Provider
-│   │   ├── loading.tsx
-│   │   ├── not-found.tsx
-│   │   └── page.tsx               # Landing / redirect sesuai role
-│   ├── components/                # Komponen UI reusable
-│   ├── lib/                       # Helper, util, & Supabase client
-│   ├── types/                     # TypeScript type definitions
-│   └── proxy.ts                   # Edge middleware (auth guard)
-├── supabase/
-│   └── migrations/                # Skrip migrasi skema SQL otomatis
-├── .env.example                   # Template variabel lingkungan
-├── next.config.ts
-├── package.json
-├── tailwind.config.ts
-└── tsconfig.json
-```
+**PharmaStock** adalah produk komersial. Lisensi selengkapnya tersedia di [`LICENSE`](./LICENSE).
+
+### Ketentuan Utama:
+
+| Ketentuan | Detail |
+|----------|--------|
+| **Penggunaan** | Diperbolehkan untuk operasional apotek sendiri |
+| **Modifikasi** | Diperbolehkan untuk kebutuhan internal |
+| **Dilarang** | Menjual ulang, membagikan, atau mempublikasikan ulang kode |
+| **Logo & Nama** | **TIDAK BOLEH** diganti atau dihapus |
+| **Kepemilikan** | Seluruh hak cipta milik @Curzyori (Yuken Velino) |
 
 ---
 
-## 🔄 Alur Kerja Sistem (System Usage Flow)
-Arsitektur PharmaStock dirancang untuk meminimalkan klik dan memberikan visibilitas penuh ke owner sambil membatasi akses staff ke data sensitif:
+## 💰 Pembelian & Kontak
 
-```text
-[ Pengguna ]
-     │
-     ├──► Login di /login (Validasi via Supabase Auth + RLS)
-     │   │
-     │   ├── Role: admin        ──► Redirect ke Dashboard Finansial (/laporan)
-     │   ├── Role: apoteker     ──► Redirect ke Dashboard Stok Kritis
-     │   └── Role: gudang       ──► Redirect ke Input Barang Masuk (/masuk)
-     │
-     ├──► Input Barang Masuk / Keluar
-     │   │
-     │   ├─► Produk dipilih dari katalog
-     │   ├─► Sistem otomatis hitung PPN 11% & PPh 22 (jika applicable)
-     │   ├─► Validasi: No. Bets + Expiry Date wajib diisi (produk farmasi)
-     │   └─► Transaksi tersimpan + tercatat di Activity Log
-     │
-     ├──► Deteksi Otomatis
-     │   │
-     │   ├─► Stok < ambang batas  ──► Badge Amber di dashboard
-     │   ├─► Expired < 90 hari    ──► Badge Rose + notifikasi
-     │   └─► Update low-stock view di PostgreSQL
-     │
-     └──► Owner Membuka Dashboard Finansial
-         │
-         ├─► Total omset, margin, grafik 30 hari terakhir
-         ├─► Export PDF laporan (jsPDF + autotable)
-         └─► Lihat Activity Log semua staff (audit trail)
+PharmaStock adalah produk komersial. Untuk informasi harga dan pembelian:
 
-[ Sirkuit Keamanan Belakang Layar ]
-     │
-     ├──► Setiap request ──► proxy.ts cek session cookie
-     │
-     ├──► Query Supabase ──► RLS policy enforce role
-     │   (Admin baca semua, Apoteker/Gudang hanya baca sesuai role)
-     │
-     └──► Transaksi gagal validasi ──► Rollback + tampilkan error
-```
+| Kontak | Detail |
+|--------|--------|
+| **WhatsApp** | [Hubungi via WhatsApp](https://wa.me/6285141495185) |
+| **GitHub** | [@Curzyori](https://github.com/Curzyori) |
+| **Portfolio** | [curzy.dev](https://curzy.dev) |
 
 ---
 
-## 🛡️ Lisensi & Ketentuan Penggunaan Komersial
-**Lisensi: Proprietary / Komersial Terbatas.**
+## 👤 Pengembang
 
-PharmaStock adalah **produk komersial** yang dijual kepada pengguna akhir. Pembeli **diperbolehkan** menggunakan dan memodifikasi sistem untuk kebutuhan operasional apoteknya sendiri, namun **dilarang keras** menjual ulang, membagikan, mempublikasikan, atau mendistribusikan ulang kode sumber dalam bentuk apa pun tanpa izin tertulis dari pemilik hak cipta.
-
-Seluruh ketentuan lengkap tersedia di berkas [`LICENSE`](./LICENSE) pada repositori ini. Pembelian produk ini mengindikasikan persetujuan otomatis terhadap seluruh klausul yang tercantum di dalamnya.
-
----
-
-## 👤 Pengembang & Penandatangan Resmi
-Dikembangkan, dimiliki, dan dilindungi hak cipta oleh:
+Dikembangkan dan dilindungi hak cipta oleh:
 
 **@Curzyori (Yuken Velino)**
 *Founder & Lead Engineer — Curzy*
-*Indonesia, 2026*
 
-> Segala bentuk pelanggaran terhadap lisensi ini akan ditindaklanjuti sesuai hukum yang berlaku di Republik Indonesia, termasuk namun tidak terbatas pada **UU Hak Cipta No. 28 Tahun 2014** dan **UU ITE No. 19 Tahun 2016**.
+---
+
+<sub>Built with passion as the 14th Project of the <strong>50 Projects Challenge</strong> by <strong>@curzyori</strong></sub>
