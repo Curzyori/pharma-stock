@@ -1,7 +1,7 @@
 # 💊 PharmaStock (V1.0.0) — Sistem Manajemen Inventaris & Keuangan Apotek
 
 <p align="center">
-  <img src="images/logo.svg" alt="PharmaStock Logo" width="120"/>
+  <img src="images/logo.png" alt="PharmaStock Logo" width="120"/>
 </p>
 
 <h1 align="center">PharmaStock</h1>
