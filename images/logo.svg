@@ -1,6 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
-  <!-- Rounded square background - bright teal -->
-  <rect x="0" y="0" width="128" height="128" rx="28" fill="#2dd4bf"/>
-  <!-- Diamond - black -->
-  <polygon points="64,18 110,64 64,110 18,64" fill="#09090b"/>
+  <!-- Outer rounded square - accent color -->
+  <rect x="0" y="0" width="128" height="128" rx="24" fill="#10b981"/>
+  <!-- Outer hexagon - black -->
+  <polygon points="64,16 112,48 112,96 64,128 16,96 16,48" fill="#09090b"/>
+  <!-- Inner hexagon - accent color -->
+  <polygon points="64,44 92,60 92,84 64,100 36,84 36,60" fill="#10b981"/>
 </svg>
